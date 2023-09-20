@@ -1,0 +1,19 @@
+
+correct reader/writer lock
+rwrwrwrwrwrw
+
+reader starvation
+wwwwrwwwwwwr
+
+writer starvation
+rrrrrrrwrrrr
+
+alternating
+rrwwrrrwrwwr
+
+more writer than reader
+wwwwrrrwwwwrrr
+
+more reader than writer
+rrrrwwwrrrrwww
+
